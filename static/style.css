@@ -1,9 +1,44 @@
 body {
-  background-color: black;
+  background-color: rgb(93, 116, 150);
+}
+
+a {
+  color: antiquewhite;
 }
 
 h1 {
-  font-size: 100px;
-  font-family: fantasy;
-  color: aliceblue;
+  font-size: 75px;
+  font-family: ;
+}
+
+.botao {
+  position: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+.myButton:hover {
+  background: #d1d9df;
+}
+.myButton:active {
+  background: #25292c;
+}
+
+.fundo {
+  color-scheme: red;
 }
