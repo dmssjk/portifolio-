@@ -3,7 +3,7 @@ body {
 }
 
 a {
-  color: rgb(116, 76, 161);
+  color: rgb(246, 245, 247); /* cor da letra do botao */
 }
 
 h1 {
@@ -55,8 +55,8 @@ h1 {
 /* button styling */
 .button {
   --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
-  --animation-color: #37FF8B;
+  --text-stroke-color: rgba(129, 122, 122, 0.6);
+  --animation-color: #ffffff;
   --fs-size: 2em;
   letter-spacing: 3px;
   text-decoration: none;
