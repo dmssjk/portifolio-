@@ -1,7 +1,20 @@
-h3{
-position: fixed;
-top: 50%;
-left: 30%;
-  
-}
 
+
+main{
+  position: fixed;
+  top: 50%;
+  left: 30%;
+
+}
+main>h3{ /* posicao do texto  */
+  position: fixed;
+  top: 70%;
+  left: 30%;
+
+}
+main>img{/* posicao da imagem, ajustei da forma que sei */
+  position: fixed;
+  top: 10%;
+  left: 31%;
+
+}
