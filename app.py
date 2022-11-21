@@ -15,15 +15,15 @@ def principal():
 
 @app.route("/familia") ## familia
 def familia():    
-    return render_template()
+    return render_template('familia.html')
 
 @app.route("/contatos") ## contatos
 def contatos():    
-    return render_template()
+    return render_template('contato.html')
 
 @app.route("/trabalhos") ## trabalhos
 def trabalhos():    
-    return render_template()    
+    return render_template('trabalhos.html')    
 
 
   
