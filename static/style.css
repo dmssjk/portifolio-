@@ -13,8 +13,17 @@ main>h3{ /* posicao do texto  */
 
 }
 main>img{/* posicao da imagem, ajustei da forma que sei */
+  width: 500px;
+  height: 500px;
   position: fixed;
   top: 10%;
   left: 31%;
 
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(202, 200, 200);
+  text-align: center;
