@@ -1,19 +1,9 @@
-<div>  
+Portifolio Daniel Santos
 
-<img src="C:\Users\dmssj\OneDrive\Desktop\portifolio\img\capa readme.gif" loop=infinite />
+Entrega da materia design digital 
+
+O sistema deve fazer uso da tecnologia de templates para a criação da interface da sua aplicação.
+O sistema deve ser responsivo.
+Todos os requisitos funcionais e não funcionais devem ser atendidos.
 
 
-</div> 
-
-importando para o portifolio o big sleep ai image generator
-
-<!-- pip install big-sleep
-
-from big_sleep import Imagine
-dream = Imagine(
-    text = "fire in the sky",
-    lr = 5e-2,
-    save_every = 25,
-    save_progress = True
-)
-dream() -->
