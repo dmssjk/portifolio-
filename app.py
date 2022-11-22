@@ -4,21 +4,20 @@ app = Flask(__name__)  ## ver video para entender oque isso faz! https://youtu.b
 
 
 
-## to pagina tem uma rota e uma funcao, sendo a rota o caminho e a funcao
-@app.route("/") ## rota  ## index 
-def index():    ## funcao
-    return render_template()
+@app.route("/")
+def home():
+    return render_template('index.html')
 
 @app.route("/principal") ## principal
-def principal():    
-    return render_template()
+def principal():   
+    return render_template('principal.html')
 
 @app.route("/familia") ## familia
 def familia():    
     return render_template('familia.html')
 
-@app.route("/contatos") ## contatos
-def contatos():    
+@app.route("/contato") ## contato
+def contato():    
     return render_template('contato.html')
 
 @app.route("/trabalhos") ## trabalhos
@@ -26,8 +25,8 @@ def trabalhos():
     return render_template('trabalhos.html')    
 
 
-  
 
-## colocar o site no ar
-if __name__ == "__main__":
-    app.run(debug=True) ## ativar o debug do site ou seja ele exibe automaticamente as alteracoes do codigo no navegador
+if __name__ == '__main__':## colocar o site no ar
+    app.run(debug=True )  ## ativar o debug do site ou seja ele exibe automaticamente as alteracoes do codigo no navegador
+
+

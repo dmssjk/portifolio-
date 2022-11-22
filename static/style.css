@@ -1,5 +1,8 @@
 
+body {
+   background-color: rgb(53, 51, 51);
 
+}
 main{
   position: fixed;
   top: 50%;
