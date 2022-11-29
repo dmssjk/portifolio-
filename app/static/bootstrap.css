@@ -65,6 +65,7 @@ nav,
 section {
   display: block;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -75,7 +76,9 @@ body {
   line-height: 1.5;
   color: #fcfcfc;
   text-align: left;
-  background: rgb(243, 3, 3);
+  background-image: url("https://i.ibb.co/BgWbJ3m/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -495,6 +498,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  
   margin-right: auto;
   margin-left: auto;
 }
@@ -518,6 +522,11 @@ pre code {
     max-width: 1140px;
   }
 }
+@media (max-width: 700px) {
+    body {
+      background-size: 100% 100%;
+    }
+  }
 .container-fluid {
   width: 100%;
   padding-right: 15px;
