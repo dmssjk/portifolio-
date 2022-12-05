@@ -76,7 +76,7 @@ body {
   line-height: 1.5;
   color: #1a523a;
   text-align: left;
-  background-color: #0069d9;
+  background-color: #2b2e31;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -3694,6 +3694,7 @@ input[type="submit"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-color: grey;
 }
 .navbar > .container,
 .navbar > .container-fluid {
