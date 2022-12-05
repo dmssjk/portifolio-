@@ -9,9 +9,9 @@ main {
 }
 main > h3 {
   /* posicao do texto  */
-  position: fixed;
-  top: 70%;
-  left: 30%;
+  position: fixed !important;
+  top: 70% !important;
+  left: 30% !important;
 }
 main > h1 {
   /* posicao do texto  */
@@ -20,10 +20,10 @@ main > h1 {
 }
 img {
   /* posicao da imagem, ajustei da forma que sei, estou na duvida se precisa colocar ponto*/
-  width: 80% !important; 
-  height: 60% !important;
+  width: 40% !important;
+  height: 12% !important;
   position: center;
-  top: 25%;
+  top: 20%;
   left: 31%;
 }
 .footer {
