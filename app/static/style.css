@@ -18,12 +18,12 @@ main > h1 {
   position: fixed;
   font-size: 100px;
 }
-.img {
+img {
   /* posicao da imagem, ajustei da forma que sei, estou na duvida se precisa colocar ponto*/
-  width: 500px;
-  height: 500px;
-  position: fixed;
-  top: 10%;
+  width: 80% !important; 
+  height: 60% !important;
+  position: center;
+  top: 25%;
   left: 31%;
 }
 .footer {
