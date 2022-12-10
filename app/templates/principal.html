@@ -16,49 +16,59 @@
     <title>principal</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light text-white">
-        <!-- nav bar  -->
+    <header class="header">
+
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-lg-0">
+        <a class="navbar-brand" href="#">
+          <img
+            src="../static/logonavbar.png"
+            style="width: 100px; height: 100px"
+            alt="logonavbar"
+          />
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand text-white" href="index">Home</a>
-          <!-- cor do texto do botao  -->
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active"></li>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="trabalhos"
-                >Trabalhos <span class="sr-only"></span
-              ></a>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="quemsou">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="trabalhos">Trabalhos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="contato">Contato</a>
             </li>
-            <li class="nav-item"></li>
           </ul>
         </div>
       </nav>
+
+
     </header>
 
     <div>{% block body %} {% endblock %}</div>
 
-    <footer class="text-center text-white">
+    <footer class=" footer text-center text-white" >
       <!-- Copyright -->
-      <div class="text-center text-white p-3 fixed-bottom">
-        © 2022 Copyright:
-        <a class="text-white" href="https://elgoog.im/terminal/" target="_blank"
-          >Do not Click</a
-        >
-      </div>
+      <p>© 2022 Copyright: <a class="text-white" href="https://elgoog.im/terminal/" target="_blank"
+        >Do not Click</a</p>
+        
+  
+        
+      
       <!-- Copyright -->
     </footer>
   </body>

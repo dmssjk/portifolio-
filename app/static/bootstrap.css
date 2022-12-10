@@ -523,10 +523,10 @@ pre code {
   }
 }
 @media (max-width: 700px) {
-    body {
-      background-size: 100% 100%;
-    }
+  body {
+    background-size: 100% 100%;
   }
+}
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -3694,7 +3694,8 @@ input[type="submit"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  background-color: grey;
+  background-color:#5294e2;
+ 
 }
 .navbar > .container,
 .navbar > .container-fluid {
