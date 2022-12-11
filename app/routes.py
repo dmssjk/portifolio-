@@ -14,9 +14,9 @@ def index():
 def contato():
     return render_template('contato.html') 
 
-@app.route('/familia')
-def familia():
-    return render_template('familia.html') 
+@app.route('/quemsou')
+def quemsou():
+    return render_template('quemsou.html') 
 
 @app.route('/trabalhos')
 def trabalhos():

@@ -74,7 +74,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #1a523a;
+  color: #f3f8f6;
   text-align: left;
   background-color: #2b2e31;
   background-repeat: no-repeat;
@@ -3694,7 +3694,7 @@ input[type="submit"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  background-color:#5294e2;
+  /* background-color:#5294e2; */
  
 }
 .navbar > .container,

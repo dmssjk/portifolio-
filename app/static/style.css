@@ -69,11 +69,17 @@ main > h1 {
 .positionAbsolute {
   position: absolute;
   top: 30%;
-  left: 5%;
+  left: %;
   background-color: rgb(167, 192, 246);
 }
 .positionSticky {
   position: sticky;
   top: 5px;
   background-color: rgb(246, 221, 167);
+}
+
+.np {
+  position: fixed !important;
+  top: 30% !important;
+  left: 10% !important;
 }
