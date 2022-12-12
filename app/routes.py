@@ -18,7 +18,7 @@ def contato():
 def quemsou():
     return render_template('quemsou.html') 
 
-@app.route('/trabalhos')
-def trabalhos():
-    return render_template('trabalhos.html') 
+@app.route('/prof')
+def profiional():
+    return render_template('prof.html') 
 

@@ -28,8 +28,12 @@ main > h1 {
   text-align: center;
 }
 .imgquadrada {
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 750%;
 }
 
 .center-block {
@@ -66,12 +70,7 @@ main > h1 {
   right: 20px;
   background-color: rgb(208, 167, 246);
 }
-.positionAbsolute {
-  position: absolute;
-  top: 30%;
-  left: %;
-  background-color: rgb(167, 192, 246);
-}
+
 .positionSticky {
   position: sticky;
   top: 5px;
